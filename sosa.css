@@ -1,0 +1,58 @@
+* {
+    text-align: center;
+}
+   
+body {
+  background-image: url("images/sosa collection logo.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.parent {
+  display: flex;
+  gap: 20px;
+}
+
+
+h1 { 
+    color: #fffff0;
+    font-size: 75px;
+    text-align: center;
+    font-family: monospace;
+    border: black;
+    text-decoration: underline;
+} 
+
+.box {
+  width: 50%;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 30px;
+
+    background-image: url("images/sosa collection logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    backdrop-filter: blur(0px);
+    border-radius: 10px;
+
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.95);
+   
+    opacity: 100;
+    transform: translateY(50px);
+    animation: fadeInUp 0.7s ease forwards;
+  transition: all 0.5s ease; 
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.container {
+    display: quick;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
